@@ -1,0 +1,35 @@
+.offer-container {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  .offer-sub-container {
+    width: 45%;
+    height: 100%;
+    margin: 0 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.3));
+
+    .offer-child-container {
+      height: 48%;
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.3));
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

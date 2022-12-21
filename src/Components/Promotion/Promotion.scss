@@ -1,0 +1,88 @@
+.Promotion-container {
+  height: 500px;
+  width: 100%;
+  background-image: url("../../Asset/blackwall.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  .Promotion-content {
+    height: 50%;
+    width: 40%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    .tagline {
+      font-size: 35px;
+      color: white;
+      font-weight: 600;
+      text-align: center;
+      justify-content: center;
+      b {
+        color: #fbc2eb;
+      }
+    }
+    .promotion-description {
+      font-size: 20;
+      color: white;
+      text-align: start;
+    }
+    .promotion-point-row {
+      width: 100%;
+      height: 50px;
+      margin: 1px;
+      display: flex;
+      .svg-container {
+        height: 70%;
+        width: 30%;
+        padding: 10px 0;
+        svg {
+          color: #a18cd1;
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .promotion-point {
+        font-size: 25px;
+        font-weight: 600;
+        width: 80%;
+        align-items: center;
+        display: flex;
+        color: white;
+      }
+    }
+    .promotion-point-description {
+      width: 100%;
+      height: 50px;
+      font-size: 15px;
+      color: #fbc2eb;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    opacity: 0.2;
+  }
+  .fix {
+    position: absolute;
+    bottom: -40px;
+    left: 0%;
+    height: 150px;
+    width: 250px;
+    z-index: 1;
+    opacity: 1;
+  }
+}
+
+.width {
+  width: 20% !important;
+}

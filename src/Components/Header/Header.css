@@ -1,0 +1,14 @@
+.header-container {
+  height: 40px;
+  width: 97%;
+  background: linear-gradient(273deg, rgb(0 0 0) -81.71%, #ffffff42 79.17%);
+  padding: 1.5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.header-logo-container {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
